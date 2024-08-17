@@ -1,0 +1,51 @@
+.nav-link:hover {
+    color: blue;
+}
+
+.carousel-item {
+    height: 60vh;
+    /* Adjust the height as needed (40vh is 40% of the viewport height) */
+    object-fit: cover;
+    /* Ensures the image covers the area without distortion */
+}
+
+.transparent-btn {
+    background-color: transparent;
+    /* No background color */
+    border: 0px solid rgba(255, 255, 255, 0.5);
+    /* Semi-transparent border */
+    color: black;
+    /* Text color */
+    /* border-color: transparent; */
+}
+
+.transparent-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Slight background on hover */
+    color: blue;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+.vl {
+    border-left: 0.1vh solid black;
+    height: 40vh;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    opacity: 0;
+    /* Start with content hidden */
+    animation: fadeUp 1s ease-out forwards;
+    /* Apply animation */
+}
