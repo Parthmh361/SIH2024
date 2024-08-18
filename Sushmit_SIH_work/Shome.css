@@ -1,14 +1,14 @@
-.nav-link:hover {
-    color: blue;
-}
+
 
 .carousel-item {
-    height: 60vh;
+    height: 100vh;
     /* Adjust the height as needed (40vh is 40% of the viewport height) */
     object-fit: cover;
     /* Ensures the image covers the area without distortion */
 }
-
+.nav-item{
+    padding-left: 2vh;
+}
 .transparent-btn {
     background-color: transparent;
     /* No background color */
