@@ -1,8 +1,12 @@
+import { ChakraProvider } from "@chakra-ui/react";
+import Registration from "./Registration";
+
+
 function App() {
   return (
-    <div className="App">
-     TEST 1
-    </div>
+    <ChakraProvider>
+<Registration/>
+    </ChakraProvider>
   );
 }
 
