@@ -1,8 +1,11 @@
+import AdminDashboard from "./Hospital/Dashboard/AdminDashboard";
+import { ChakraProvider } from "@chakra-ui/react";
 function App() {
   return (
-    <div className="App">
-     TEST 1
-    </div>
+    <ChakraProvider>
+          <AdminDashboard/>
+    </ChakraProvider>
+ 
   );
 }
 
